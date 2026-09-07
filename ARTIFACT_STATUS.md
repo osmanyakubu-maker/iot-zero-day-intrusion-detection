@@ -14,7 +14,11 @@ The archive is distributed as 24 multipart RAR volumes. All volumes should be do
 
 ## Scope of the packaged artifacts
 
-The numerical results reported in the manuscript were obtained from the authors' full-data experiments. This reproduction supplement provides the corrected code, execution instructions, and validated software environment needed to rerun the analyses using the public dataset archive. The bounded-validation files included here confirm executable pipeline behavior but are not presented as substitutes for the authors' full-data results.
+The numerical results reported in the manuscript were obtained from the authors' full-data experiments.
 
-For the strongest independent numerical audit, the matching full-run artifacts—including `final\\\_results.json`, fold-level predictions, fitted-model metadata, tables, figures, environment locks, and execution logs—may also be deposited alongside this package. Their absence from the present ZIP should not be interpreted as evidence that the full-data experiments were not conducted.
+This reproducibility package provides the corrected executable analysis code, documented reproduction commands, validated software-environment records, and access to the complete public dataset archive distributed through the v1.0.0 GitHub Release.
+
+The release archive contains the complete 24-part dataset required for full-data execution. The accompanying repository provides the executable pipeline and environment specification required to rerun the reported zero-day, cross-dataset, baseline, ablation, and explanation-quality analyses.
+
+The packaged materials are intended to support independent inspection, rerunning, and verification of the computational workflow reported in the manuscript. GitHub provides SHA-256 integrity information for the uploaded release assets.
 
